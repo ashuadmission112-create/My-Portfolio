@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Ashutosh Maurya - Software and Web Developer Portfolio">
+
+  <title>Ashutosh Maurya | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="navbar">
+
+      <a href="#home" class="logo">
+        Ashutosh<span>.</span>
+      </a>
+
+      <div class="nav-links" id="primary-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+
+        <button id="theme-toggle"
+                class="theme-btn"
+                type="button"
+                aria-label="Switch theme">
+          <span id="theme-icon">☀️</span>
+          <span id="theme-label">Light Mode</span>
+        </button>
+
+        <button id="menu-toggle"
+                class="menu-toggle"
+                type="button"
+                aria-label="Open menu"
+                aria-controls="primary-nav"
+                aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+      <div class="hero-content">
+
+        <p class="greeting">
+          WELCOME TO MY PORTFOLIO
+        </p>
+
+        <h1>
+          Hi, I'm <span>Ashutosh Maurya</span>
+        </h1>
+
+        <h2>
+          Aspiring Software & Web Developer
+        </h2>
+
+        <p class="description">
+          I am a Computer Science student passionate
+          about programming, responsive web development
+          and building modern digital experiences.
+
+          I enjoy learning new technologies and
+          solving real-world problems.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn primary">
+            View My Projects
+          </a>
+
+          <a href="#contact" class="btn secondary">
+            Contact Me
+          </a>
+
+          <a href="Ashutosh_CV.pdf"
+             download
+             class="btn secondary">
+            Download CV ↓
+          </a>
+
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="profile.jpg.jpg"
+             alt="Ashutosh Maurya">
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+      <p class="section-label">GET TO KNOW ME</p>
+
+      <h2>About <span>Me</span></h2>
+
+      <div class="about-card reveal">
+
+        <h3>Hello! I'm Ashutosh 👋</h3>
+
+        <p>
+          I am pursuing a Bachelor of Science
+          in Computer Science at Bhavna Trust
+          Junior & Degree College of Commerce,
+          Chembur.
+
+          My interests include web development,
+          software engineering, databases,
+          cloud infrastructure and Linux
+          system administration.
+
+          I enjoy working on academic and
+          practical projects to improve my
+          technical knowledge.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+
+      <p class="section-label">TECHNICAL EXPERTISE</p>
+
+      <h2>My <span>Skills</span></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>JavaScript Development</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Python Programming</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">💻</div>
+          <h3>Front-end Frameworks</h3>
+          <p>Frontend Development</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Website Development</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS Grid Layout</h3>
+          <p>Responsive Web Layouts</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🗄️</div>
+          <h3>Database Management</h3>
+          <p>Database Technologies</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud Infrastructure</h3>
+          <p>Cloud Management</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">☕</div>
+          <h3>Java</h3>
+          <p>Java Programming</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🐧</div>
+          <h3>Linux</h3>
+          <p>Linux System Administration</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <p class="section-label">MY WORK</p>
+
+      <h2>Featured <span>Projects</span></h2>
+
+      <p class="section-description">
+        Explore my web development, academic
+        research and UI/UX design projects.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card reveal">
+
+          <div class="project-banner">🌐</div>
+
+          <div class="project-content">
+
+            <p class="project-category">
+              WEB DEVELOPMENT
+            </p>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+              A fully responsive portfolio website
+              developed using HTML, CSS and JavaScript.
+
+              Features include dark/light mode,
+              mobile navigation, scroll animations
+              and contact form validation.
+            </p>
+
+            <div class="tech-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+
+              <a
+                href="https://github.com/ashuadmission112-create/My-Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link">
+
+                View GitHub Repository ↗
+
+              </a>
+
+            </div>
+
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card reveal">
+
+          <div class="project-banner">🔐</div>
+
+          <div class="project-content">
+
+            <p class="project-category">
+              ACADEMIC RESEARCH
+            </p>
+
+            <h3>Cybersecurity Awareness Survey</h3>
+
+            <p>
+              An academic field project focused
+              on studying cybersecurity awareness
+              among small businesses.
+
+              The project includes survey research,
+              data collection, analysis and
+              graphical representation.
+            </p>
+
+            <div class="tech-tags">
+              <span>Research</span>
+              <span>Survey</span>
+              <span>Data Analysis</span>
+            </div>
+
+            <div class="project-links">
+              <span class="project-note">
+                Project documentation available on request
+              </span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card reveal">
+
+          <div class="project-banner">🎨</div>
+
+          <div class="project-content">
+
+            <p class="project-category">
+              UI/UX DESIGN
+            </p>
+
+            <h3>NGO Website Design Concept</h3>
+
+            <p>
+              A Figma-based website design concept
+              focused on improving the online
+              experience of an NGO.
+
+              The design includes donation sections,
+              volunteer registration, impact
+              showcases and intuitive navigation.
+            </p>
+
+            <div class="tech-tags">
+              <span>Figma</span>
+              <span>UI Design</span>
+              <span>UX Design</span>
+            </div>
+
+            <div class="project-links">
+              <span class="project-note">
+                Design link to be added
+              </span>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+      <p class="section-label">
+        ACADEMIC BACKGROUND
+      </p>
+
+      <h2>My <span>Education</span></h2>
+
+      <div class="education-card reveal">
+
+        <div class="education-icon">🎓</div>
+
+        <div class="education-content">
+
+          <p class="education-type">
+            UNDERGRADUATE STUDIES
+          </p>
+
+          <h3>
+            Bachelor of Science (Computer Science)
+          </h3>
+
+          <p>
+            Bhavna Trust Junior & Degree College
+            of Commerce, Chembur
+          </p>
+
+          <p class="education-detail">
+            Areas of Study: Programming,
+            Data Structures, Operating Systems,
+            Database Management and Web Development.
+          </p>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section">
+
+      <p class="section-label">
+        PROFESSIONAL PROFILE
+      </p>
+
+      <h2>My <span>Resume</span></h2>
+
+      <div class="resume-card reveal">
+
+        <div class="resume-icon">📄</div>
+
+        <h3>Explore My Resume</h3>
+
+        <p>
+          Learn more about my education,
+          technical skills and academic experience.
+        </p>
+
+        <div class="resume-buttons">
+
+          <a href="Ashutosh_CV.pdf"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn secondary">
+            View Resume
+          </a>
+
+          <a href="Ashutosh_CV.pdf"
+             download="Ashutosh_Maurya_Resume.pdf"
+             class="btn primary">
+            Download Resume ↓
+          </a>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+      <p class="section-label">LET'S CONNECT</p>
+
+      <h2>Contact <span>Me</span></h2>
+
+      <div class="contact-card reveal">
+
+        <h3>Let's Work Together!</h3>
+
+        <p>
+          Have a project, opportunity or
+          collaboration in mind?
+          Feel free to contact me.
+        </p>
+
+        <form id="contact-form" novalidate>
+
+          <div class="form-group">
+
+            <label for="name">Your Name</label>
+
+            <input type="text"
+                   id="name"
+                   autocomplete="name"
+                   placeholder="Enter your name">
+
+            <small class="error" id="name-error"></small>
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="email">Your Email</label>
+
+            <input type="email"
+                   id="email"
+                   autocomplete="email"
+                   placeholder="Enter your email">
+
+            <small class="error" id="email-error"></small>
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="message">Your Message</label>
+
+            <textarea id="message"
+                      rows="5"
+                      placeholder="Write your message"></textarea>
+
+            <small class="error" id="message-error"></small>
+
+          </div>
+
+          <button type="submit" class="btn primary">
+            Send Message ↗
+          </button>
+
+          <p id="form-status"
+             role="status"
+             aria-live="polite"></p>
+
+        </form>
+
+        <div class="direct-email">
+
+          <p>Or contact me directly:</p>
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ashuadmission112%40gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="email-link">
+
+            📧 Open Gmail
+
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 Ashutosh Maurya.
+      All Rights Reserved.
+    </p>
+
+    <p>
+      Built with HTML, CSS & JavaScript
+    </p>
+
+  </footer>
+
+</body>
+</html>
